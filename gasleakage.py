@@ -5,6 +5,12 @@ from twilio.rest import Client
 # Initialize Text-to-Speech engine
 engine = pyttsx3.init()
 
+# Twilio Credentials (Update with your own credentials)
+TWILIO_SID = ""
+TWILIO_AUTH_TOKEN = ""
+TWILIO_PHONE_NUMBER = ""  # Your Twilio number
+TO_PHONE_NUMBER = ""
+
 # Initialize Twilio Client
 client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
